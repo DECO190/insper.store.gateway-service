@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: db
-          image: humbertosandmann/gateway:latest
+          image: deco1903/gateway:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
